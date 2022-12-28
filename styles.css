@@ -1,0 +1,29 @@
+body {
+    background: #555;
+}
+
+/* Teclado Musical */
+.teclado {
+
+}
+
+/* Notas */
+.oitava {
+    display: flex;
+    position: relative;
+}
+
+/* Teclas */
+.branca {
+    width: 50px;
+    height: 300px;
+    background: white;
+    border: 1px solid black;
+}
+
+.preta {
+    width: 30px;
+    height: 175px;
+    background: black;
+    position: absolute;
+}
