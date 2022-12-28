@@ -1,10 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background: #555;
 }
 
 /* Teclado Musical */
 .teclado {
-
+    display: flex;
 }
 
 /* Notas */
@@ -26,4 +30,29 @@ body {
     height: 175px;
     background: black;
     position: absolute;
+}
+
+/* Teclas Susteninas (Pretas) */
+[cs] {
+    left: 35px;
+}
+
+[ds] {
+    left: 85px;
+}
+
+[fs] {
+    left: 185px;
+}
+
+[gs] {
+    left: 235px;
+}
+
+[as] {
+    left: 285px;
+}
+
+.selecionada {
+    background: #070;
 }
